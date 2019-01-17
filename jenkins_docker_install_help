@@ -1,0 +1,6 @@
+1.	Install docker ----
+2.	Docker pull Jenkins
+3.	mkdir $PWD/Jenkins
+4.	sudo chown -R 1000:1000 $PWD/Jenkins
+5.	docker run -d -p 8080:8080 -p 50000:50000 -v $PWD/jenkins:/var/jenkins_home --name jenkins jenkins
+
